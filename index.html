@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ipctool">
+    <meta name="description" content="details">
+    <meta name="keyword" content="ipctool,image to pdf,png to pdf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script
+      src="https://kit.fontawesome.com/583eea2170.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Stylesheet/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hamburger-menu" id="hamburger-menu" onclick="showSidebar()">
+        <div class="menu-logo">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      <div class="section-1">
+        <div class="aside_bar">
+          <div class="text-center">
+            <div class="profile_img">
+              <img src="./assets/profile.jpg" alt="" />
+            </div>
+            <h1 id="colorlib-logo">
+              <a href="./index.html">Abdul Raheem</a>
+            </h1>
+            <span class="position">
+              <a href="#">Web Designer/Developer</a>
+              in PAKISTAN
+            </span>
+          </div>
+          <nav id="navbar">
+            <ul class="nav-list">
+              <li class="nav-items"><a href="#">HOME</a></li>
+              <li class="nav-items"><a href="#">ABOUT</a></li>
+              <li class="nav-items"><a href="#">SERVICES</a></li>
+              <li class="nav-items"><a href="#">SKILLS</a></li>
+              <li class="nav-items"><a href="#">EDUCATION</a></li>
+              <li class="nav-items"><a href="#">EXPERIANCE</a></li>
+              <li class="nav-items"><a href="#">WORK</a></li>
+              <li class="nav-items"><a href="#">BLOG</a></li>
+              <li class="nav-items"><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="colorlib-footer">
+            <p>
+              <small
+                >© Copyright © <span id="demo"></span> All rights reserved |
+                This template is made with <i class="fa-solid fa-heart"></i> by
+                <a href="#">Colorlib</a>
+                Demo Images:
+                <a href="#">Unsplash.com</a>
+              </small>
+            </p>
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="./assets/IMG-20240112-WA0002.jpg" />
+            <div class="content">
+              <div class="title">
+                Hi! <br />
+                I'M ABDUL
+              </div>
+              <div class="type">It's Made by me for portfolio</div>
+              <div class="button">
+                <button>See Portfolio</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./assets/IMG-20240226-WA0032.jpg" />
+            <div class="content">
+              <div class="title">
+                I am<br />
+                a Developer
+              </div>
+              <div class="type">It's Made by me for portfolio</div>
+
+              <div class="button">
+                <button>Download CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="context-2">
+          <a href="#">ABOUT US</a>
+          <h2>who </h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="./dynamic/index.js"></script>
+  </body>
+</html>
